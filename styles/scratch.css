@@ -1,0 +1,75 @@
+
+body {
+    background-color: #5c21db;
+    background-size: cover;
+    font-family: 'Verdana', sans-serif;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.common.header {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #1c9ab7;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.common.mainbody {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    list-style-type: disc;  
+    padding-left: 20px;   
+    margin: 0;
+    text-align: left;       
+    display: inline-block;  
+    
+    
+    .common.mainbody li {
+        margin: 0;              /* Remove default margin for each li */
+        padding: 0;             /* Remove default padding for each li */
+        text-align: left;       /* Ensure text is aligned to the left */
+    }
+    
+    }
+    
+
+.tableauPlaceholder {
+    display: block;
+    margin: 0 auto;
+    width: 80%; 
+    max-width: 1200px; 
+}
+
+.tableauViz {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.common.footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+
